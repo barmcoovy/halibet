@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient16">
+      <stop
+         style="stop-color:#323232;stop-opacity:0.31379309;"
+         offset="0"
+         id="stop16" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.12413793;"
+         offset="1"
+         id="stop17" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter1"
+       x="-0.0082084911"
+       y="-0.0082084911"
+       width="1.016417"
+       height="1.016417">
+      <feGaussianBlur
+         stdDeviation="0.58978432"
+         id="feGaussianBlur1" />
+    </filter>
+    <linearGradient
+       xlink:href="#linearGradient16"
+       id="linearGradient17"
+       x1="32.692257"
+       y1="139.85814"
+       x2="188.32956"
+       y2="139.85814"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <circle
+       style="opacity:1;mix-blend-mode:normal;fill:#000000;stroke-width:0.264583;filter:url(#filter1)"
+       id="path1"
+       cx="107.84332"
+       cy="144.06142"
+       r="86.220619" />
+    <path
+       style="opacity:1;fill:#6c54ec;fill-opacity:1;stroke-width:0.540568"
+       d="M 97.031977,228.34984 C 74.30094,225.23423 53.645669,213.15046 40.011272,194.99152 14.114854,160.50144 18.207126,112.12692 49.528908,82.484053 61.149471,71.486377 75.101633,64.233298 91.356011,60.740087 c 4.821494,-1.036183 7.303524,-1.219817 16.487329,-1.219817 9.1838,0 11.66583,0.183634 16.48733,1.219817 11.78963,2.533697 20.95698,6.359302 30.55382,12.750347 12.35586,8.228428 22.22841,19.495566 28.91672,33.001486 6.25889,12.63878 8.77462,23.41016 8.77462,37.56948 0,14.15932 -2.51573,24.9307 -8.77462,37.56948 -11.73059,23.68796 -33.07675,40.15634 -59.20026,45.6725 -6.25869,1.32157 -21.37545,1.89537 -27.568973,1.04646 z"
+       id="path2" />
+    <text
+       xml:space="preserve"
+       style="font-size:38.1px;opacity:1;fill:#ededff;fill-opacity:1;stroke:url(#linearGradient17);stroke-width:4.8;stroke-dasharray:none;stroke-opacity:1"
+       x="31.352951"
+       y="154.06192"
+       id="text11"><tspan
+         id="tspan11"
+         style="fill:#ededff;fill-opacity:1;stroke:url(#linearGradient17);stroke-width:4.8;stroke-dasharray:none;stroke-opacity:1"
+         x="31.352951"
+         y="154.06192">HaliCoin</tspan></text>
+  </g>
+</svg>
