@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/halibet/static/css/main.8324df19.css",
+    "main.js": "/halibet/static/js/main.bfa8b3ec.js",
+    "static/js/453.d9f226c4.chunk.js": "/halibet/static/js/453.d9f226c4.chunk.js",
+    "index.html": "/halibet/index.html",
+    "main.8324df19.css.map": "/halibet/static/css/main.8324df19.css.map",
+    "main.bfa8b3ec.js.map": "/halibet/static/js/main.bfa8b3ec.js.map",
+    "453.d9f226c4.chunk.js.map": "/halibet/static/js/453.d9f226c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8324df19.css",
+    "static/js/main.bfa8b3ec.js"
+  ]
+}
