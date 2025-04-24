@@ -46,8 +46,12 @@ const Header = () => {
           {navigation.map((item) => (
             <li key={item.id}>
               <Link
-                to={`${item.link}`}
-                className={item.isLoginButton ? "login-button" : "nav-link"}
+                to={`/halibet${item.link}`}
+                className={
+                  item.isLoginButton
+                    ? "login-button link-router"
+                    : "nav-link link-router"
+                }
               >
                 {item.name}
               </Link>
