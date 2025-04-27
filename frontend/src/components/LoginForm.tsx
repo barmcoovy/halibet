@@ -4,6 +4,7 @@ import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 import "../styles/LoginForm.css";
 import { useState } from "react";
 import ToMainPageIconComponent from "./ToMainPageIconComponent";
+import ButtonSubmitComponent from "./ButtonSubmitComponent";
 const LoginForm = () => {
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
@@ -52,9 +53,7 @@ const LoginForm = () => {
                 )}
               </div>
             </div>
-            <button type="submit" className="login-form-submitBtn">
-              Zaloguj się
-            </button>
+            <ButtonSubmitComponent text="Zaloguj się" />
           </form>
           <div className="forgot-password">
             <p>Nie pamiętasz hasła?</p>
