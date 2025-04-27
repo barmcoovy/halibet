@@ -10,7 +10,7 @@ const LoginForm = () => {
   const [isPasswordVisible, setIsPasswordVisible] = useState<boolean>(false);
   return (
     <div className="login-form-container">
-      <div className="margin-default">
+      <div className="container">
         <ToMainPageIconComponent />
 
         <div className="login-form">

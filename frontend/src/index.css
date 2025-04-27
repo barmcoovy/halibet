@@ -17,6 +17,6 @@ body {
   color: white;
 }
 
-.margin-default {
+.container {
   margin: var(--margin-default);
 }

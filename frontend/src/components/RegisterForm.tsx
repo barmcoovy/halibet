@@ -8,7 +8,7 @@ const RegisterForm = () => {
   // const [birthDate, setBirthDate] = useState<string>("");
   return (
     <div className="register-container">
-      <div className="margin-default">
+      <div className="container">
         <ToMainPageIconComponent />
       </div>
     </div>
