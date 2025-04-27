@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye, faEyeSlash, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 import "../styles/LoginForm.css";
 import { useState } from "react";
+import ToMainPageIconComponent from "./ToMainPageIconComponent";
 const LoginForm = () => {
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const [isPasswordVisible, setIsPasswordVisible] = useState<boolean>(false);
   return (
     <div className="login-form-container">
-      <div style={{ margin: "60px" }}>
-        <Link to="/halibet" className="link-router">
-          <FontAwesomeIcon icon={faXmark} style={{ fontSize: "2rem" }} />
-        </Link>
+      <div className="margin-default">
+        <ToMainPageIconComponent />
 
         <div className="login-form">
           <h2>Zaloguj</h2>
@@ -62,7 +61,10 @@ const LoginForm = () => {
           </div>
           <div className="register-link-container">
             <p>Nie masz jeszcze konta?</p>
-            <Link to="/register" className="link-router  create-account-link">
+            <Link
+              to="/halibet/rejestracja"
+              className="link-router  create-account-link"
+            >
               Zarejestruj się
             </Link>
           </div>

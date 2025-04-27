@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
+:root {
+  --margin-default: 2rem;
+}
 * {
   font-family: "Noto Sans", "Rubik", sans-serif;
   list-style-type: none;
@@ -13,4 +15,8 @@ body {
 }
 .link-router {
   color: white;
+}
+
+.margin-default {
+  margin: var(--margin-default);
 }
