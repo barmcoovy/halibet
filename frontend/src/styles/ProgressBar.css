@@ -1,0 +1,21 @@
+.progress-bar-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.step {
+  width: 20%;
+  font-size: 0.8rem;
+}
+.progress-bar {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 80%;
+  height: 10px;
+}
+.progress {
+  background-color: #000;
+  border-radius: 8px;
+  height: 100%;
+}
